@@ -1,0 +1,154 @@
+body{
+    background-color:6B3FB6;
+    color:#E50914;
+    font-family:Century Gothic;
+}
+.headlabel{
+    font-family:Verdana;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+}
+.form_image{
+    display: block;
+}
+.form_image img{
+    position: absolute;
+    opacity: 0.7;
+    top:70px;
+    left:47%;
+    height: 100px;
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 600;
+}
+.error{
+    font-size: 10px;
+    font-weight: 400;
+    color:#2E2E2E;
+}
+input{
+    width:95%;
+    border:0;
+    background-color:6B3FB6;
+    border-bottom: 2px solid #E50914;
+    color: #E50914;
+    height:20px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.content{
+    position: absolute;
+    top:125px;
+    height:430px;
+    left:30%;
+    right:30%;
+    display: block;
+    padding: 10px;
+    width:40%;
+    border-radius: 30px;
+    box-shadow:  0 8px 32px 0 rgba(51, 87, 105, 0.37);
+}
+.submit_btn{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    top: 370px;
+    border:0;
+    border-radius: 30px;
+    background-color: #E50914;
+    color:#fff;
+    height: 40px;
+    width:50%;
+    left:25%;
+    right:25%;
+}
+.reset_btn{
+    border:none;
+    background: none;
+    color:black;
+    position: absolute;
+    color:#E50914;
+    font-size: 15px;
+    width:50%;
+    left:25%;
+    right: 25%;
+    top:420px;
+}
+table{
+    position: absolute;
+    top:630px;
+    border-radius: 30px;
+    box-shadow:  0 8px 32px 0 rgba(51, 87, 105, 0.37);
+    text-align: center;
+    width: 70%;
+    left:15%;
+    right:15%;
+}
+@media (max-width:860px) {
+    .headlabel{
+        font-size: 25px;
+    }
+    .content{
+        height:400px;   
+    }
+    .form_image img{
+        height: 80px;
+    }
+    label{
+        font-size: 15px;
+    }
+    .submit_btn{
+       top:350px;
+       font-size: 15px;
+       height: 30px;
+    }
+    .reset_btn{
+        top:390px;
+        font-size: 10px;
+    }
+    table{
+        width:100%;
+        left:0%;
+        right:0%;
+    }
+}
+@media (max-width:600px) {
+    .content{
+        width:60%;
+        left:20%;
+        right:20%;
+    }
+}
+@media (max-width:500px) {
+    .headlabel{
+        font-size: 20px;
+    }
+    .error{
+        font-size: 9px;
+    }
+    table{
+        top:580px;
+        font-size: 10px;
+    }
+}
+@media (max-width:350px) {
+    .content{
+        width:80%;
+        left:10%;
+        right:10%;
+    }
+    label{
+        font-size: 10px;
+    }
+    .form_image img{
+        height:60px;
+        top:80px;
+    }
+    table{
+        font-size: 7px;
+    }
+}
