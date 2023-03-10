@@ -113,7 +113,7 @@ let getdataarray=(temp)=>
 let deletedata=(id)=>
 {
     let check=confirm("Are sure want to delete this row!!");
-    if(check==true){
+    if(check){
    let emp=id.parentElement.parentElement.cells[0].innerHTML;
     let temp=head;
     let temp1;
