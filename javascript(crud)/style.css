@@ -1,7 +1,7 @@
 body{
     background-color:#fff;
     color:#E50914;
-    font-family:Century;
+    font-family:Tahoma;
 }
 .headlabel{
     font-size: 35px;
@@ -69,7 +69,6 @@ input{
     background: none;
     color:black;
     position: absolute;
-    color:#E50914;
     font-size: 15px;
     width:50%;
     left:25%;
